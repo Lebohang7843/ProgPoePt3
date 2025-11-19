@@ -1,0 +1,53 @@
+﻿@{
+    ViewData["Title"] = "Home - Claims Management";
+}
+
+<div class="container text-center">
+    <h1 class="display-4 mb-5">Claims Management System</h1>
+
+    <div class="row">
+        <div class="col-md-3 mb-4">
+            <div class="card h-100">
+                <div class="card-body">
+                    <i class="fas fa-user-graduate fa-3x text-primary mb-3"></i>
+                    <h5 class="card-title">Lecturer Portal</h5>
+                    <p class="card-text">Submit and track your claims</p>
+                    <a href="@Url.Action("Index", "Lecturer")" class="btn btn-primary">Enter as Lecturer</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-3 mb-4">
+            <div class="card h-100">
+                <div class="card-body">
+                    <i class="fas fa-user-tie fa-3x text-success mb-3"></i>
+                    <h5 class="card-title">Coordinator Portal</h5>
+                    <p class="card-text">Review and verify claims</p>
+                    <a href="@Url.Action("PendingClaims", "Coordinator")" class="btn btn-success">Enter as Coordinator</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-3 mb-4">
+            <div class="card h-100">
+                <div class="card-body">
+                    <i class="fas fa-user-cog fa-3x text-warning mb-3"></i>
+                    <h5 class="card-title">Manager Portal</h5>
+                    <p class="card-text">Final approval of claims</p>
+                    <a href="@Url.Action("PendingClaims", "Manager")" class="btn btn-warning">Enter as Manager</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-3 mb-4">
+            <div class="card h-100">
+                <div class="card-body">
+                    <i class="fas fa-hand-holding-usd fa-3x text-info mb-3"></i>
+                    <h5 class="card-title">HR Portal</h5>
+                    <p class="card-text">Process payments and settlements</p>
+                    <a href="@Url.Action("Dashboard", "HR")" class="btn btn-info">Enter as HR</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

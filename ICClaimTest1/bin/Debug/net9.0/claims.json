@@ -178,5 +178,50 @@
     "SettlementNotes": "good work worker",
     "ProcessedBy": "HR User",
     "PaymentReference": "PAY-20251119-983077"
+  },
+  {
+    "Id": 13,
+    "LecturerName": "Dr.Lebohang Selematsela",
+    "HoursWorked": 45,
+    "HourlyRate": 499,
+    "TotalAmount": 22455,
+    "AdditionalNotes": "Completed research project supervision and exam marking.",
+    "SubmissionDate": "2025-11-20T01:19:16.7550672+02:00",
+    "Status": 5,
+    "Documents": [],
+    "SettlementDate": "2025-11-20T01:19:52.7181617+02:00",
+    "SettlementNotes": "fgdsusgjdh",
+    "ProcessedBy": "HR User",
+    "PaymentReference": "PAY-20251119-383280"
+  },
+  {
+    "Id": 14,
+    "LecturerName": "Dr.Lebohang Selematsela",
+    "HoursWorked": 45,
+    "HourlyRate": 499,
+    "TotalAmount": 22455,
+    "AdditionalNotes": "Completed research project supervision and exam marking.",
+    "SubmissionDate": "2025-11-20T01:20:44.5006457+02:00",
+    "Status": 0,
+    "Documents": [],
+    "SettlementDate": null,
+    "SettlementNotes": null,
+    "ProcessedBy": null,
+    "PaymentReference": null
+  },
+  {
+    "Id": 15,
+    "LecturerName": "Dr.Lebohang Selematsela",
+    "HoursWorked": 45,
+    "HourlyRate": 499,
+    "TotalAmount": 22455,
+    "AdditionalNotes": "Completed research project supervision and exam marking.",
+    "SubmissionDate": "2025-11-20T01:25:10.4374382+02:00",
+    "Status": 0,
+    "Documents": [],
+    "SettlementDate": null,
+    "SettlementNotes": null,
+    "ProcessedBy": null,
+    "PaymentReference": null
   }
 ]

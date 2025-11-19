@@ -10,6 +10,9 @@ A comprehensive ASP.NET Core web application for managing lecturer contract clai
 
 Presentation: [Lebohang selematsela prog poe pt3 Contract_Claim_System_Modern_Styled.pptx](https://github.com/user-attachments/files/23638521/Lebohang.selematsela.prog.poe.pt3.Contract_Claim_System_Modern_Styled.pptx)
 
+Word Document: [Lebohang selematsela prog poe pt3 Contract_Claim_System_Modern_Styled.pptx.docx](https://github.com/user-attachments/files/23639279/Lebohang.selematsela.prog.poe.pt3.Contract_Claim_System_Modern_Styled.pptx.docx)
+
+
 ## 📋 Project Overview
 
 This Claims Management System is a multi-role web application designed to streamline the process of submitting, reviewing, approving, and settling lecturer contract claims. The system follows a structured workflow with four distinct user roles, each with specific responsibilities and access levels.

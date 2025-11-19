@@ -85,8 +85,6 @@ C:\Users\lab_services_student\Desktop\ProgPt2\ClaimsManagementApp\ClaimsManageme
 C:\Users\lab_services_student\Desktop\ProgPt2\ClaimsManagementApp\ClaimsManagementApp\obj\Debug\net9.0\compressed\mvlj9tfysl-muycvpuwrr.gz
 C:\Users\lab_services_student\Desktop\ProgPt2\ClaimsManagementApp\ClaimsManagementApp\obj\Debug\net9.0\compressed\l3o200bdsv-87fc7y1x7t.gz
 C:\Users\lab_services_student\Desktop\ProgPt2\ClaimsManagementApp\ClaimsManagementApp\obj\Debug\net9.0\compressed\65wpano8da-mlv21k5csn.gz
-C:\Users\lab_services_student\Desktop\ProgPt2\ClaimsManagementApp\ClaimsManagementApp\obj\Debug\net9.0\compressed\fnfmdk1i65-39irkkhcwp.gz
-C:\Users\lab_services_student\Desktop\ProgPt2\ClaimsManagementApp\ClaimsManagementApp\obj\Debug\net9.0\compressed\4t1yy0z97t-39irkkhcwp.gz
 C:\Users\lab_services_student\Desktop\ProgPt2\ClaimsManagementApp\ClaimsManagementApp\obj\Debug\net9.0\staticwebassets.build.json
 C:\Users\lab_services_student\Desktop\ProgPt2\ClaimsManagementApp\ClaimsManagementApp\obj\Debug\net9.0\staticwebassets.build.json.cache
 C:\Users\lab_services_student\Desktop\ProgPt2\ClaimsManagementApp\ClaimsManagementApp\obj\Debug\net9.0\staticwebassets.development.json
@@ -527,3 +525,5 @@ C:\Users\lab_services_student\Desktop\ProgPt2\ClaimsManagementApp\ClaimsManageme
 C:\Users\lab_services_student\Desktop\ProgPt2\ClaimsManagementApp\ClaimsManagementApp\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
 C:\Users\lab_services_student\Desktop\ProgPt2\ClaimsManagementApp\ClaimsManagementApp\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
 C:\Users\lab_services_student\Desktop\ProgPt2\ClaimsManagementApp\ClaimsManagementApp\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\lab_services_student\Desktop\ProgPt2\ClaimsManagementApp\ClaimsManagementApp\obj\Debug\net9.0\compressed\fnfmdk1i65-mcu6eoc0ya.gz
+C:\Users\lab_services_student\Desktop\ProgPt2\ClaimsManagementApp\ClaimsManagementApp\obj\Debug\net9.0\compressed\4t1yy0z97t-mcu6eoc0ya.gz

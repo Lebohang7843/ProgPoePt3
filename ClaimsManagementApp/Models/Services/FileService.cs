@@ -11,6 +11,13 @@ namespace ClaimsManagementApp.Services
         private readonly long _maxFileSize = 5 * 1024 * 1024; // 5MB
         private readonly string[] _allowedExtensions = { ".pdf", ".docx", ".xlsx" };
 
+        // AES configuration – valid sizes
+        private static readonly byte[] EncryptionKey =
+            Encoding.UTF8.GetBytes("ThisIsA32ByteLongEncryptionKey!!"); // 32 bytes
+
+        private static readonly byte[] EncryptionIV =
+            Encoding.UTF8.GetBytes("ThisIsAnIV123456"); // 16 bytes
+
         public FileService()
         {
             if (!Directory.Exists(_uploadPath))
@@ -26,9 +33,7 @@ namespace ClaimsManagementApp.Services
             var fileName = $"{Guid.NewGuid()}{extension}";
             var filePath = Path.Combine(_uploadPath, fileName);
 
-            // Encrypt file before saving
             await EncryptAndSaveFileAsync(file, filePath);
-
             return fileName;
         }
 
@@ -62,51 +67,28 @@ namespace ClaimsManagementApp.Services
         private async Task EncryptAndSaveFileAsync(IFormFile file, string filePath)
         {
             using var aes = Aes.Create();
-
-            // Use a properly sized key (exactly 32 bytes for AES-256)
-            // "Your32ByteEncryptionKey1234" is exactly 32 bytes in UTF-8
-            string encryptionKey = "Your32ByteEncryptionKey1234";
-            aes.Key = Encoding.UTF8.GetBytes(encryptionKey);
-
-            // Generate a random IV for better security
-            aes.GenerateIV();
+            aes.Key = EncryptionKey;
+            aes.IV = EncryptionIV;
 
             using var inputStream = file.OpenReadStream();
-            using var outputStream = new FileStream(filePath, FileMode.Create);
-
-            // Write the IV to the beginning of the file
-            await outputStream.WriteAsync(aes.IV, 0, aes.IV.Length);
-
+            using var outputStream = new FileStream(filePath, FileMode.Create, FileAccess.Write);
             using var cryptoStream = new CryptoStream(outputStream, aes.CreateEncryptor(), CryptoStreamMode.Write);
-            await inputStream.CopyToAsync(cryptoStream);
 
-            // Ensure the crypto stream is flushed and closed
-            cryptoStream.FlushFinalBlock();
+            await inputStream.CopyToAsync(cryptoStream);
+            await cryptoStream.FlushAsync();
         }
 
         private async Task<byte[]> DecryptFileAsync(string filePath)
         {
             using var aes = Aes.Create();
+            aes.Key = EncryptionKey;
+            aes.IV = EncryptionIV;
 
-            // Use the same key as encryption
-            string encryptionKey = "Your32ByteEncryptionKey1234";
-            aes.Key = Encoding.UTF8.GetBytes(encryptionKey);
-
-            using var inputStream = new FileStream(filePath, FileMode.Open);
-
-            // Read the IV from the beginning of the file
-            byte[] iv = new byte[16];
-            int bytesRead = await inputStream.ReadAsync(iv, 0, iv.Length);
-            if (bytesRead != 16)
-            {
-                throw new InvalidOperationException("Could not read IV from file");
-            }
-            aes.IV = iv;
-
+            using var inputStream = new FileStream(filePath, FileMode.Open, FileAccess.Read);
             using var cryptoStream = new CryptoStream(inputStream, aes.CreateDecryptor(), CryptoStreamMode.Read);
             using var memoryStream = new MemoryStream();
-            await cryptoStream.CopyToAsync(memoryStream);
 
+            await cryptoStream.CopyToAsync(memoryStream);
             return memoryStream.ToArray();
         }
 

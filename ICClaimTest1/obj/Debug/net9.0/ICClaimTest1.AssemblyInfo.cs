@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ICClaimTest1")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f87de45e781dc102faa565298dca1881085e2b87")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6c14641e31892ee0de2744780b1b90c7b61c4732")]
 [assembly: System.Reflection.AssemblyProductAttribute("ICClaimTest1")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ICClaimTest1")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

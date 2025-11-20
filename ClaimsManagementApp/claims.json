@@ -278,5 +278,105 @@
     "SettlementNotes": "cfhjhfhjghjjl",
     "ProcessedBy": "HR User",
     "PaymentReference": "PAY-20251120-634758"
+  },
+  {
+    "Id": 19,
+    "LecturerName": "thabo",
+    "HoursWorked": 69,
+    "HourlyRate": 267,
+    "TotalAmount": 18423,
+    "AdditionalNotes": "Good worker",
+    "SubmissionDate": "2025-11-20T21:49:49.0653532+02:00",
+    "Status": 3,
+    "Documents": [
+      {
+        "Id": 1,
+        "ClaimId": 19,
+        "FileName": "Lebohang selematsela prog poe pt3 Contract_Claim_System_Modern_Styled.pptx.docx",
+        "StoredFileName": "86a4041d-bfb2-43b8-ab15-f8d8bb991729.docx",
+        "ContentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "FileSize": 1039557,
+        "UploadDate": "2025-11-20T21:49:49.1945845+02:00"
+      }
+    ],
+    "SettlementDate": null,
+    "SettlementNotes": null,
+    "ProcessedBy": null,
+    "PaymentReference": null
+  },
+  {
+    "Id": 20,
+    "LecturerName": "Sfiso",
+    "HoursWorked": 74,
+    "HourlyRate": 76,
+    "TotalAmount": 5624,
+    "AdditionalNotes": "good employee",
+    "SubmissionDate": "2025-11-20T21:50:25.3304296+02:00",
+    "Status": 4,
+    "Documents": [
+      {
+        "Id": 1,
+        "ClaimId": 20,
+        "FileName": "PROG6212 Part 2 Checklist 2-1 (2).pdf",
+        "StoredFileName": "67e7635e-cc08-4b97-ba22-543ea76643a8.pdf",
+        "ContentType": "application/pdf",
+        "FileSize": 470817,
+        "UploadDate": "2025-11-20T21:50:25.3362108+02:00"
+      }
+    ],
+    "SettlementDate": null,
+    "SettlementNotes": null,
+    "ProcessedBy": null,
+    "PaymentReference": null
+  },
+  {
+    "Id": 21,
+    "LecturerName": "thabo",
+    "HoursWorked": 100,
+    "HourlyRate": 500,
+    "TotalAmount": 50000,
+    "AdditionalNotes": "expensive",
+    "SubmissionDate": "2025-11-20T21:51:04.4274624+02:00",
+    "Status": 2,
+    "Documents": [
+      {
+        "Id": 1,
+        "ClaimId": 21,
+        "FileName": "LEBOHANG SELEMATSELA INSY7212 SUMMATIVE.docx",
+        "StoredFileName": "f83eb874-944f-4c49-b152-825b114eb8ae.docx",
+        "ContentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "FileSize": 2528828,
+        "UploadDate": "2025-11-20T21:51:04.4385082+02:00"
+      }
+    ],
+    "SettlementDate": null,
+    "SettlementNotes": null,
+    "ProcessedBy": null,
+    "PaymentReference": null
+  },
+  {
+    "Id": 22,
+    "LecturerName": "Dr.Lebohang Selematsela",
+    "HoursWorked": 45,
+    "HourlyRate": 499,
+    "TotalAmount": 22455,
+    "AdditionalNotes": "Completed research project supervision and exam marking.",
+    "SubmissionDate": "2025-11-20T21:58:12.6453015+02:00",
+    "Status": 5,
+    "Documents": [
+      {
+        "Id": 1,
+        "ClaimId": 22,
+        "FileName": "PROG6212 Part 2 Checklist 2-1 (2).pdf",
+        "StoredFileName": "d5795146-ae5a-4d2d-859a-e369749bf8f5.pdf",
+        "ContentType": "application/pdf",
+        "FileSize": 470817,
+        "UploadDate": "2025-11-20T21:58:12.6524806+02:00"
+      }
+    ],
+    "SettlementDate": "2025-11-20T21:59:45.164755+02:00",
+    "SettlementNotes": "has been a great employee",
+    "ProcessedBy": "HR User",
+    "PaymentReference": "PAY-20251120-764947"
   }
 ]

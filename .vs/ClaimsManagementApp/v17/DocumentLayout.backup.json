@@ -178,7 +178,7 @@
               "RelativeDocumentMoniker": "ClaimsManagementApp\\Models\\Services\\FileService.cs",
               "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\ProgPt2\\ClaimsManagementApp\\ClaimsManagementApp\\Models\\Services\\FileService.cs",
               "RelativeToolTip": "ClaimsManagementApp\\Models\\Services\\FileService.cs",
-              "ViewState": "AgIAAFQAAAAAAAAAAAAAwGoAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAAAGYAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-21T12:56:48.544Z",
               "EditorCaption": ""
@@ -229,8 +229,7 @@
               "RelativeToolTip": "ICClaimTest1\\ClaimTest.cs",
               "ViewState": "AgIAAC0AAAAAAAAAAAAuwEIAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-22T19:21:55.284Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-22T19:21:55.284Z"
             },
             {
               "$type": "Document",
@@ -242,8 +241,7 @@
               "RelativeToolTip": "ClaimsManagementApp\\Models\\Services\\IFileService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-21T12:56:07.461Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-21T12:56:07.461Z"
             },
             {
               "$type": "Document",

@@ -202,7 +202,7 @@
     "TotalAmount": 22455,
     "AdditionalNotes": "Completed research project supervision and exam marking.",
     "SubmissionDate": "2025-11-20T01:20:44.5006457+02:00",
-    "Status": 1,
+    "Status": 3,
     "Documents": [],
     "SettlementDate": null,
     "SettlementNotes": null,
@@ -217,7 +217,7 @@
     "TotalAmount": 22455,
     "AdditionalNotes": "Completed research project supervision and exam marking.",
     "SubmissionDate": "2025-11-20T01:25:10.4374382+02:00",
-    "Status": 1,
+    "Status": 3,
     "Documents": [],
     "SettlementDate": null,
     "SettlementNotes": null,
@@ -232,7 +232,7 @@
     "TotalAmount": 22455,
     "AdditionalNotes": "Completed research project supervision and exam marking.",
     "SubmissionDate": "2025-11-20T01:28:19.9666545+02:00",
-    "Status": 0,
+    "Status": 3,
     "Documents": [],
     "SettlementDate": null,
     "SettlementNotes": null,
@@ -247,11 +247,36 @@
     "TotalAmount": 22455,
     "AdditionalNotes": "Completed research project supervision and exam marking.",
     "SubmissionDate": "2025-11-20T17:53:02.2826263+02:00",
-    "Status": 0,
+    "Status": 3,
     "Documents": [],
     "SettlementDate": null,
     "SettlementNotes": null,
     "ProcessedBy": null,
     "PaymentReference": null
+  },
+  {
+    "Id": 18,
+    "LecturerName": "Dr.Lebohang Selematsela",
+    "HoursWorked": 45,
+    "HourlyRate": 499,
+    "TotalAmount": 22455,
+    "AdditionalNotes": "Completed research project supervision and exam marking.",
+    "SubmissionDate": "2025-11-20T18:02:51.1695093+02:00",
+    "Status": 5,
+    "Documents": [
+      {
+        "Id": 1,
+        "ClaimId": 18,
+        "FileName": "PROG6212 Part 2 Checklist 2-1 (2).pdf",
+        "StoredFileName": "530bd4e0-0e6f-4c90-b90b-2d78b5f8ef13.pdf",
+        "ContentType": "application/pdf",
+        "FileSize": 470817,
+        "UploadDate": "2025-11-20T18:02:51.2278313+02:00"
+      }
+    ],
+    "SettlementDate": "2025-11-20T18:04:04.9948015+02:00",
+    "SettlementNotes": "cfhjhfhjghjjl",
+    "ProcessedBy": "HR User",
+    "PaymentReference": "PAY-20251120-634758"
   }
 ]

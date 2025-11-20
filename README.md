@@ -9,6 +9,8 @@ A comprehensive ASP.NET Core web application for managing lecturer contract clai
 
 github link: https://github.com/Lebohang7843/ProgPoePt3.git
 
+Youtube link: https://youtu.be/AasT-kXzlHU?si=R7pnA-6pYjZJ4B0w
+
 Presentation: [Lebohang selematsela prog poe pt3 Contract_Claim_System_Modern_Styled.pptx](https://github.com/user-attachments/files/23638521/Lebohang.selematsela.prog.poe.pt3.Contract_Claim_System_Modern_Styled.pptx)
 
 Word Document: [Lebohang selematsela prog poe pt3 Contract_Claim_System_Modern_Styled.pptx.docx](https://github.com/user-attachments/files/23639279/Lebohang.selematsela.prog.poe.pt3.Contract_Claim_System_Modern_Styled.pptx.docx)
